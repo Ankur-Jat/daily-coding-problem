@@ -1,4 +1,18 @@
-import enum
+"""
+Daily Coding Problem: #1201
+Date: 4-Oct-2022
+Author: Ankur Jat (https://www.linkedin.com/in/ankur-jat-41355674/)
+"""
+"""
+Problem:
+Given n numbers, find the greatest common denominator between them.
+For example, given the numbers [42, 56, 14], return 14.
+"""
+"""
+Solution:
+    The solution of this problem is like finding gcd of 2 numbers. 
+    The only twist is that we have to keep finding the gcd for each pair
+"""
 
 
 def gcd(x, y):
